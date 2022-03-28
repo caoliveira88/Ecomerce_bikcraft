@@ -4,6 +4,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1, ul, p{
+    margin: 0px;
+}
+
 ul {
     margin: 0px;
     padding: 0px;
@@ -12,6 +16,12 @@ ul {
 
 a {
     text-decoration: none;
+    color: inherit; /*erança do pai*/
+}
+
+img {
+    max-width: 100%;
+    display: block;
 }
 
 /*HEADER MENU*/
@@ -92,3 +102,59 @@ a {
     }
 }
 
+/*INTRODUÇÃO*/
+
+.introducao-bg {
+    background: #000000;
+    color: #ffffff;
+}
+
+.introducao {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px 40px;
+    box-sizing: border-box;/*para somar os paddings definidos*/
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.introducao-conteudo {
+    align-self: end;
+    padding-bottom: 80px;
+}
+
+.introducao h1 {
+    margin-bottom: 32px;
+    font-size: 64px;
+    line-height: 1.125;/*utilizar valor relativo para não ter problema ao diminuir ou almentar o tamanho da fonte (calculo por ex 64px/72px = 1.125)*/
+}
+
+.introducao h1 span {
+    color: #FFBF00;
+}
+
+.introducao p {
+    margin-bottom: 20px;
+    font-size: 24px;
+    line-height: 1.5;
+    color: #b2b2b2;
+}
+
+.introducao a {
+    display: inline-block;/*para pegar o padding corretamente*/
+    padding: 16px 32px;
+    background: #FFBF00;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+}
+
+.introducao a:hover {
+    background: #FFB60D;
+}
