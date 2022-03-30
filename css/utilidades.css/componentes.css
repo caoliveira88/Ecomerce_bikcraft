@@ -1,0 +1,25 @@
+.botao {
+    display: inline-block;/*para pegar o padding corretamente*/
+    padding: 16px 32px;
+    background: #FFBF00;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    line-height: 1.33;
+    font-weight: bold;
+    font-family: "Poppins";
+    font-weight: 600;
+}
+
+.botao:hover {
+    background: #FFB60D;
+}
+
+/*RESPONSIVIDADE BOTÃO*/
+@media (max-width: 600px) {
+    .botao {
+        padding: 12px 16px;
+        font-size: 16px;
+    }
+}
