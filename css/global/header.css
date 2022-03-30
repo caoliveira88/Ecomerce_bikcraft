@@ -25,11 +25,7 @@
 .header-menu a {
     display: inline-block; /*Quando um item cair em baixo do outro, para o padding pegar direito pois é um elemento inline*/
     padding: 16px 0px; /*padding para almentar a área de clique do link*/
-    font-size: 18px;
     position: relative;
-    font-family: "Poppins";
-    font-weight: 400;
-    
 }
 
 .header-menu a::after {
