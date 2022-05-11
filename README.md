@@ -6,6 +6,7 @@ Projeto final Página Bikcraft do curso de HTML e CSS
 - ``HTML``
 - ``CSS``
 - ``Grid Layout``
+- ``Responsividade``
 - ``VS Code IDEA``
 
 
