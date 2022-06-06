@@ -23,6 +23,10 @@
     overflow-x: auto;/*definir o que acontece caso o elemento estoure - Nesse caso criou barra de scrol no eicho "x" conforme necessidade, quando diminui a pagina */
 }
 
+#bicicleta .bicicletas-lista ul {
+    padding: 0px 0px 20px 0px; /*retirar padding extra*/
+}
+
 .bicicletas-lista li {
     flex: 1;
     min-width: 280px;
