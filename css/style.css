@@ -21,6 +21,9 @@
 @import "bicicletas.css/bicicletas-lista.css";
 @import "bicicletas.css/bicicletas.css";
 
+/*bicicleta*/
+@import "bicicleta/bicicleta.css";
+
 /*seguros*/
 @import "seguros.css/seguros.css";
 @import "seguros.css/vantagens.css";
